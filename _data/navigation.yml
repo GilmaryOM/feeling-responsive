@@ -1,4 +1,4 @@
-- title: Start
+- title: Home
   url: "/"
   side: left
 
@@ -70,6 +70,13 @@
   url: "/search/"
   side: right
 
-- title: "Contact"
-  url: "/contact/"
+- title: "About"
+  url: "/about/"
   side: right
+  dropdown:
+    - title: "About this site"
+      url: "/about/site"
+    - title: "About me"
+      url: "/about/me"
+    - title: "Contact"
+      url: "/about/contact"

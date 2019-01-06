@@ -70,7 +70,7 @@ $spacing-unit: 30px;
 // set $rem-base to $base-font-size and make sure $base-font-size is a px value.
 // $base-font-size: 100%;
 
-$base-font-size: 16px;
+// base-font-size is defined in _02_settings_typography.scss which must be included before this file!
 $rem-base: $base-font-size;
 
 
@@ -207,7 +207,7 @@ $global-radius: 3px;
 // $header-font-family: $font-family-serif;
 // $header-font-weight: $font-weight-normal;
 // $header-font-style: normal;
-// $header-font-color: $jet;
+$header-font-color: $primary-color;
 // $header-line-height: 1.4;
 // $header-top-margin: .2rem;
 // $header-bottom-margin: .5rem;
@@ -244,7 +244,7 @@ $global-radius: 3px;
 // $paragraph-font-family: inherit;
 // $paragraph-font-weight: $font-weight-normal;
 // $paragraph-font-size: 1rem;
-// $paragraph-line-height: 1.6;
+$paragraph-line-height: $base-line-height;
 // $paragraph-margin-bottom: rem-calc(20);
 // $paragraph-aside-font-size: rem-calc(14);
 // $paragraph-aside-line-height: 1.35;
@@ -254,7 +254,8 @@ $global-radius: 3px;
 // We use these to style <code> tags
 // $code-color: $oil;
 // $code-font-family: $font-family-monospace;
-// $code-font-weight: $font-weight-normal;
+// 'inherit' is better than '$font-weight-normal' because we want <code> to inherit the wight (e.g. inside <bold> sections)
+$code-font-weight: inherit;
 // $code-background-color: scale-color($secondary-color, $lightness: 70%);
 // $code-border-size: 1px;
 // $code-border-style: solid;
@@ -262,9 +263,9 @@ $global-radius: 3px;
 // $code-padding: rem-calc(2) rem-calc(5) rem-calc(1);
 
 // We use these to style anchors
-// $anchor-text-decoration: none;
-// $anchor-text-decoration-hover: none;
-// $anchor-font-color: $primary-color;
+$anchor-text-decoration: none;
+$anchor-text-decoration-hover: none;
+$anchor-font-color: $secondary-color;
 // $anchor-font-color-hover: scale-color($primary-color, $lightness: -14%);
 
 // We use these to style the <hr> element
@@ -288,11 +289,11 @@ $list-side-margin: 1.3rem;
 // $definition-list-margin-bottom: rem-calc(12);
 
 // We use these to style blockquotes
-// $blockquote-font-color: scale-color($header-font-color, $lightness: 35%);
+$blockquote-font-color: $primary-color;
 // $blockquote-padding: rem-calc(9 20 0 19);
 // $blockquote-border: 1px solid $gainsboro;
 // $blockquote-cite-font-size: rem-calc(13);
-// $blockquote-cite-font-color: scale-color($header-font-color, $lightness: 23%);
+$blockquote-cite-font-color: $primary-color;
 // $blockquote-cite-link-color: $blockquote-cite-font-color;
 
 // Acronym styles
@@ -1374,7 +1375,7 @@ $table-head-bg: $grey-2;
 // $include-html-top-bar-classes: $include-html-classes;
 
 // Height and margin
-$topbar-height: rem-calc(50);
+$topbar-height: rem-calc(45);
 // $topbar-margin-bottom: 0;
 
 // Controlling the styles for the title in the top bar
@@ -1385,7 +1386,7 @@ $topbar-title-font-size: rem-calc(19);
 // $topbar-dropdown-bg: $oil;
 // $topbar-dropdown-link-color: $white;
 // $topbar-dropdown-link-bg: $ci-2;
-// $topbar-dropdown-link-weight: $font-weight-normal;
+$topbar-dropdown-link-weight: $font-weight-semibold;
 // $topbar-dropdown-toggle-size: 5px;
 // $topbar-dropdown-toggle-color: $ci-2;
 // $topbar-dropdown-toggle-alpha: 0.4;
@@ -1395,7 +1396,7 @@ $topbar-title-font-size: rem-calc(19);
 // $topbar-link-color-hover: #000;
 // $topbar-link-color-active: #000;
 // $topbar-link-color-active-hover: #000;
-// $topbar-link-weight: $font-weight-normal;
+$topbar-link-weight: $font-weight-semibold;
 $topbar-link-font-size: rem-calc(15);
 // $topbar-link-hover-lightness: -10%; // Darken by 10%
 // $topbar-link-bg: $topbar-bg;
@@ -1421,7 +1422,7 @@ $topbar-link-text-transform: uppercase;
 // Top menu icon styles
 $topbar-menu-link-transform: uppercase;
 // $topbar-menu-link-font-size: rem-calc(13);
-// $topbar-menu-link-weight: $font-weight-bold;
+$topbar-menu-link-weight: $font-weight-semibold;
 // $topbar-menu-link-color: $white;
 // $topbar-menu-icon-color: $white;
 // $topbar-menu-link-color-toggled: $ci-6;

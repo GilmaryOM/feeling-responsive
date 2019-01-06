@@ -249,7 +249,7 @@ body.video cite { color: #fff; }
 ------------------------------------------------------------------- */
 
 #up-to-top {
-    padding: 160px 0 10px 0;
+    padding: 10px 0 10px 0;
 }
 #up-to-top a {
     font-size: 24px;
@@ -296,7 +296,10 @@ body.video cite { color: #fff; }
 #subfooter {
     background: $subfooter-bg;
     color: $subfooter-color;
-    padding-top: 30px;
+    section {
+      height: 3em;
+      display: table;
+    }
 }
 
 #subfooter-left ul.inline-list {
@@ -313,11 +316,11 @@ body.video cite { color: #fff; }
 }
 
 .social-icons {
-    margin-bottom: 10px !important;
+    margin-bottom: 0;
 
 // Beware of SCSS-Syntax here
   li {
-    padding: 0 0 20px 0;
+    padding: 0;
   }
   a {
     font-size: rem-calc(23);

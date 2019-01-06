@@ -16,21 +16,27 @@ Modular Scale › http://www.modularscale.com//?16,36&px&1.25&web&table
 /* Fonts
 ------------------------------------------------------------------- */
 
-$base-font-size: 16px;
+@import url(../fonts/robotocondensed-2014-webfontkit/robotocondensed-2014.css);
+@import url(../fonts/roboto-2014-webfontkit/roboto-2014.css);
+@import url(../fonts/robotomono/robotomono.css);
+
+$base-font-size: 15px;
 $rem-base: $base-font-size;
-// $base-line-height is 24px while $base-font-size is 16px
-$base-line-height: 1.5 !default;
+// $base-line-height is 21px while $base-font-size is 15px
+$base-line-height: 1.4 !default;
+$code-font-size: 0.86 * $base-font-size;
+$code-line-height: 0.86 * $base-line-height;
 
 
-$font-family-sans-serif: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-sans-serif: "Roboto", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-family-serif: "Volkhov", Georgia, Times, serif;
-$font-family-monospace: "Lucida Console", Monaco, monospace;
+$font-family-monospace: "Roboto Mono", "Lucida Console", Monaco, monospace;
 
 $body-font-family: $font-family-sans-serif;
 $body-font-weight: normal;
 $body-font-style: normal;
 
-$header-font-family: $font-family-serif;
+$header-font-family: $font-family-sans-serif;
 
 
 
@@ -38,6 +44,7 @@ $header-font-family: $font-family-serif;
 ------------------------------------------------------------------- */
 
 $font-weight-normal: normal;
+$font-weight-semibold: 500;
 $font-weight-bold: bold;
 
 
