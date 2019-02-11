@@ -25,6 +25,9 @@
 
 {% endcomment %}
       <ul class="right">
+
+        <li><form action="{{ "/search/" | absolute_url }}" method="get"><input class="top-bar-search-input" accesskey="4" tabindex="1" type="search" placeholder="Search" id="search-box" name="query"></form></li>
+
         {% for link in site.data.navigation %}
 
               {% if link.url contains 'http' %}
