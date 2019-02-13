@@ -1,32 +1,37 @@
 - name: GitHub
-  url: http://github.com/phlow
+  url: http://github.com/simonis
   class: icon-github
-  title: Code und mehr...
+  title: My GitHub repo ...
 
 - name: YouTube
-  url: http://www.youtube.com/PhlowMedia
+  url: https://www.youtube.com/channel/UCEJItpuRpRsyelsB3Rli7Jg
   class: icon-youtube
-  title: "Videos, Video-Anleitungen und Filme von Phlow auf YouTube"
+  title: "YouTube channel with my conference recordings"
 
 - name: Twitter
-  url: http://twitter.com/phlow
+  url: http://twitter.com/volker_simonis
   class: icon-twitter
-  title: "Immer das Neuste von Phlow gibt es auf Twitter"
+  title: "My Twitter Handle"
 
-- name: Mixcloud
-  url: http://www.mixcloud.com/phlow/
-  class: icon-cloud
-  title: "Mixe, was sonst?"
+- name: LinkedIn
+  url: https://www.linkedin.com/in/volker-simonis
+  class: icon-linkedin
+  title: "My LinkedIn Profil"
 
-- name: Phlow YouTube Google+
-  url: https://plus.google.com/u/0/+Phlow
-  class: icon-googleplus
-  title: "YouTube Google+"
+# - name: Mixcloud
+#  url: http://www.mixcloud.com/
+#  class: icon-cloud
+#  title: "Mixe, was sonst?"
 
-# - name: Facebook
-#   url: http://www.facebook.com/
-#   class: icon-facebook
-#   title: ""
+#- name: Phlow YouTube Google+
+#  url: https://plus.google.com/u/0/
+#  class: icon-googleplus
+#  title: "YouTube Google+"
+
+- name: Facebook
+  url: http://www.facebook.com/volker.simonis
+  class: icon-facebook
+  title: "My Facebook Account"
 
 # - name: Soundcloud
 #   url: http://soundcloud.com/
