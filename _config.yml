@@ -42,7 +42,7 @@ urlimg: 'https://simonis.io/images/'
 
 
 # Logo size is 600x80 pixels
-logo: "logo.png"
+logo: "simonis_logo.png"
 
 # Gems
 plugins:
