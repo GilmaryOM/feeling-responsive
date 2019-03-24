@@ -6,7 +6,16 @@
 #
 layout: frontpage
 header:
-  image_fullwidth: novo_flipped.jpg
+  image_fullwidth:
+    - image: novo_flipped.jpg
+    - image: aliens.jpg
+    - image: aliens2.jpg
+    - image: moskow.jpg
+    - image: rd1.jpg
+    - image: rd2.jpg
+    - image: rd3.jpg
+    - image: lviv_roots.jpg
+    - image: lviv_roots2.jpg
 widget1:
   title: "Blog & Portfolio"
   url: 'http://phlow.github.io/feeling-responsive/blog/'
