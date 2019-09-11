@@ -1,12 +1,15 @@
 ---
 layout: page
-title: "Contact"
-meta_title: "Contact and use our contact form"
-subheadline: "Wufoo-powered contact forms"
+title: "About me"
+meta_title: ""
+subheadline: ""
 teaser: "Get in touch with me? Use the contact form."
-permalink: "/contact/"
+permalink: "/about/"
 ---
-If you need a fabulous contact form for your website, I suggest you use [Wufoo][1]. You can use three forms for free, you get no spam and if you get more than 100 entries you have to pay.
+I'm a Biologist, graduate student of the InterAmerican University, Science Master program
+in Bioinformatics and volunteer researcher of the Microbiome Laboratory in the Medical Science Campus-UPR.  
+I’ve been at ML since 2015. I’ve done research on microbial communities structures with marker gene survey data,
+and untargeted metabolomics procedure published in 2018. I have worked in a wide variety of routine lab procedures, 
+but I most enjoy working in computer softwares for data analysis and visualization - both challenging and rewarding.
 
 
- [1]: http://www.wufoo.com/
