@@ -4,7 +4,7 @@ title: "About me"
 meta_title: ""
 subheadline: ""
 teaser: "Get in touch with me? Use the contact form."
-permalink: "/about/"
+permalink: "/contact/"
 ---
 I'm a Biologist, graduate student of the InterAmerican University, Science Master program
 in Bioinformatics and volunteer researcher of the Microbiome Laboratory in the Medical Science Campus-UPR.  
