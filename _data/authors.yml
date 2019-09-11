@@ -6,9 +6,9 @@
 #
 # Resource › http://blog.sorryapp.com/blogging-with-jekyll/2014/02/06/adding-authors-to-your-jekyll-site.html
 simonis: # replace this with your info
-  name: "Volker Simonis"
-  siterole: "webmaster, developer, blogger"
-  uri: https://simonis.io
-  email: volker.simonis@gmail.com
-  twitter: "@volker_simonis"
+  name: "Gilmary Ortiz-Morales"
+  siterole: "guide, inspire, organize"
+  uri: https://omgil.io
+  email: gilmary.ortiz@gmail.com
+  twitter: ""
 # you can add more authors here
